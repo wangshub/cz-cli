@@ -17,7 +17,7 @@
     "test": "nyc --require babel-core/register _mocha -- test/tests/index.js",
     "test:watch": "nodemon -q --ignore test/.tmp/ --ignore test/artifacts/ --ignore coverage/ --exec \"npm run test\" --",
     "test:windows": "node ./test/tools/trigger-appveyor-tests.js"
-  },
+  }, 
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
